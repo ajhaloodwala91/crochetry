@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crochetry</title>
+    <link rel="stylesheet" href="Website.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="Logo.jpg" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="Website.html">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="Contact.html">About</a></li>
+                    <li><a href="Contact.html#footer">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="Menu.png" class="menu" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1 class="name">Crochetry</h1>
+                <h1>Beyond Needles and Thread!</h1>
+                <p>You can't buy happiness, but you can buy yarn and that's very close..!!!</p>
+                <a href="Products.html" class="btn" id="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="Front.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Categories -->
+<div class="categories">
+    <div class="small-container">
+        <h2 class="title">Categories</h2>
+        <div class="row">
+            <div class="col-3">
+                <a href="Products.html#title-1" target="_blank">
+                    <img src="D:\HTML\Crochetry\Products\Elephant.jpg">
+                    <div class="context">Soft Toys</div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="Products.html#title-2" target="_blank">
+                    <img src="D:\HTML\Crochetry\Products\Elephant.jpg">
+                    <div class="context">Keychains</div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="Products.html#title-3" target="_blank">
+                    <img src="D:\HTML\Crochetry\Products\Elephant.jpg">
+                    <div class="context">Flowers</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Featured Products -->
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="D:\HTML\Crochetry\Products\Elephant.jpg">
+            <h4>Elephant</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="D:\HTML\Crochetry\Products\Elephant.jpg">
+            <h4>Elephant</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="D:\HTML\Crochetry\Products\Elephant.jpg">
+            <h4>Elephant</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="D:\HTML\Crochetry\Products\Elephant.jpg">
+            <h4>Elephant</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="D:\HTML\Crochetry\Products\Elephant.jpg">
+            <h4>Elephant</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="D:\HTML\Crochetry\Products\Elephant.jpg">
+            <h4>Elephant</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="D:\HTML\Crochetry\Products\Elephant.jpg">
+            <h4>Elephant</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="D:\HTML\Crochetry\Products\Elephant.jpg">
+            <h4>Elephant</h4>
+            <p>$50.00</p>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-2">
+                <img src="Logo.jpg">
+                <p>You can't buy happiness, but you can buy yarn and that's very close..!!!</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#">Coupons</a></li>
+                    <li><a href="#">Blog Post</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Join Affiliate</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/crochetry._/">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script for Toggle Menu -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        } else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</div>
+</body>
+</html>

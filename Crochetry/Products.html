@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Crochetry</title>
+    <link rel="stylesheet" href="Website.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="Logo.jpg" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="Website.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Contact.html">About</a></li>
+                <li><a href="Contact.html#footer">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="Menu.png" class="menu" onclick="menutoggle()">
+    </div>
+</div>
+
+<!-- Featured Products -->
+<div class="small-container">
+    <!-- <div class="container">
+        <div class="navbar">
+            <nav>
+                <ul id="MenuItems">
+                    <li class="options"><a href="#title-0">Featured Products</a></li>
+                    <li class="options"><a href="#title-1">Soft Toys</a></li>
+                    <li class="options"><a href="#title-2">Keychains</a></li>
+                    <li class="options"><a href="#title-3">Flowers</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div> -->
+    
+    <div class="row row-2">
+        <h2 class="title" id="title-0">Featured Products</h2>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="Baby 5.jpg">
+            <h4>Elephant</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Baby 2.jpg">
+            <h4>Elephant</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Baby 4.jpg">
+            <h4>Elephant</h4>
+            <p>$50.00</p>
+        </div>
+    </div>
+    <div class="row row-2">
+        <h2 class="title" id="title-1">Rida Sets</h2>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="Rida 1.jpg">
+            <h4>Rida Set 1</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Rida 2.jpg">
+            <h4>Rida Set 2</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Rida 3.jpg">
+            <h4>Rida Set 3</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Rida 4.jpg">
+            <h4>Rida Set 4</h4>
+            <p>$50.00</p>
+        </div>
+    </div>
+    <div class="row row-2">
+        <h2 class="title" id="title-2">Baby Collection</h2>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="Baby 1.jpg">
+            <h4>Hairpin</h4>
+            <p>&#8377;50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Baby 2.jpg">
+            <h4>Hairpin (Set of 7)</h4>
+            <p>&#8377;350.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Baby 3.jpg">
+            <h4>Hat</h4>
+            <p>&#8377;300.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Baby 4.jpg">
+            <h4>Hat</h4>
+            <p>&#8377;300.00</p>
+        </div>
+    </div>
+    <div class="row row-2">
+        <h2 class="title" id="title-3">Hats</h2>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="Baby 5.jpg">
+            <h4>Elephant</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Baby 4.jpg">
+            <h4>Elephant</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Baby 3.jpg">
+            <h4>Elephant</h4>
+            <p>$50.00</p>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-2">
+                <img src="Logo.jpg">
+                <p>You can't buy happiness, but you can buy yarn and that's very close..!!!</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#">Coupons</a></li>
+                    <li><a href="#">Blog Post</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Join Affiliate</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/crochetry._/">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script for Toggle Menu -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        } else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</div>
+</body>
+</html>
